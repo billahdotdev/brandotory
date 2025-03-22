@@ -106,7 +106,7 @@ const About = ({ registerSection, onButtonHover, navigateTo }) => {
             <div className="founder-profile">
               <div className="founder-header">
                 <div className="founder-image">
-                  <img src="/images/founder.jpg" alt="Masum Billah" />
+                  <img src="https://avatars.githubusercontent.com/u/112099343?v=4" alt="Masum Billah" />
                 </div>
                 <div className="founder-intro">
                   <h3>Masum Billah</h3>
