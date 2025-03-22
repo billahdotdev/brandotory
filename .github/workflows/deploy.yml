@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change to your branch if necessary
+      - main
 
 permissions:
   contents: read
@@ -18,16 +18,24 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Grant execute permissions
+        run: chmod +x node_modules/.bin/vite
 
       - name: Build Project
-        run: npm run build  # Change to "vite build" if using Vite
+        run: npm run build
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist  # Change to "build" for Create React App
+          path: ./dist
 
   deploy:
     needs: build
