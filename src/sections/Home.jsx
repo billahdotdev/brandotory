@@ -28,8 +28,8 @@ const Home = ({ registerSection, onButtonHover, navigateTo }) => {
         </h1>
 
         <p className="section-description">
-          A single-page experience with smooth transitions, unique navigation, and a curated collection of products and
-          services.
+        We bring your dream online presence to life with custom websites, 
+        SEO, digital marketing, branding, and Linux migration.
         </p>
 
         <div className="button-group">
