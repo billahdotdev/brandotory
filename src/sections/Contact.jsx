@@ -61,7 +61,7 @@ const Contact = ({ registerSection, onButtonHover }) => {
         <div className="contact-container">
           <div className="contact-info">
             <h3>Get In Touch</h3>
-            <p>We'd love to hear from you. Reach out to discuss your project or just to say hello.</p>
+            <p>Let's discuss how we can help your business grow or just to say hello.</p>
 
             <div className="contact-details">
               <div className="contact-item">
