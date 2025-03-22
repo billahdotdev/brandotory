@@ -8,9 +8,9 @@ const BrandLogo = ({ size = "default", onHover, className = "" }) => {
       case "small":
         return { width: 10, height: 10 }
       case "large":
-        return { width: 80, height: 80 }
-      default:
         return { width: 40, height: 40 }
+      default:
+        return { width: 20, height: 20 }
     }
   }
 
