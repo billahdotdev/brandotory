@@ -1,0 +1,37 @@
+"use client"
+
+import logo from "../assets/logo1.svg"
+
+const BrandLogo = ({ size = "default", onHover, className = "" }) => {
+  const getSize = () => {
+    switch (size) {
+      case "small":
+        return { width: 10, height: 10 }
+      case "large":
+        return { width: 80, height: 80 }
+      default:
+        return { width: 40, height: 40 }
+    }
+  }
+
+  const { width, height } = getSize()
+
+  return (
+    <div
+      className={`brand-logo ${className}`}
+      onMouseEnter={() => onHover && onHover(true, "Brandotory")}
+      onMouseLeave={() => onHover && onHover(false, "")}
+    >
+      <img
+        src={logo || "/placeholder.svg"}
+        alt="Brandotory Logo"
+        width={width}
+        height={height}
+        className="brand-logo-image"
+      />
+    </div>
+  )
+}
+
+export default BrandLogo
+
