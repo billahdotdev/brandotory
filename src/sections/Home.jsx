@@ -17,7 +17,7 @@ const Home = ({ registerSection, onButtonHover, navigateTo }) => {
   return (
     <section ref={sectionRef} className="section home-section" id="home">
       <div className="home-logo-top-left">
-        <BrandLogo size="large" onHover={onButtonHover} />
+        <BrandLogo size="small" onHover={onButtonHover} />
       </div>
 
       <div className="section-content">
