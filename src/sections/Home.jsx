@@ -22,9 +22,9 @@ const Home = ({ registerSection, onButtonHover, navigateTo }) => {
 
       <div className="section-content">
         <h1 className="section-title">
-          <span className="title-line">Creative Websites.</span>
-          <span className="title-line">Digital Marketing.</span>
-          <span className="title-line">Branding Consultancy.</span>
+          <span className="title-line">Websites.</span>
+          <span className="title-line">Marketing.</span>
+          <span className="title-line">Branding.</span>
         </h1>
 
         <p className="section-description">
