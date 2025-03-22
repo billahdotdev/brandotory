@@ -72,25 +72,25 @@ const Contact = ({ registerSection, onButtonHover }) => {
                   onMouseEnter={() => onButtonHover(true, "Send Email")}
                   onMouseLeave={() => onButtonHover(false, "")}
                 >
-                  hello@example.com
+                  info.brandotory@gmail.com
                 </a>
               </div>
 
               <div className="contact-item">
                 <span className="contact-label">Phone</span>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+8801711992558"
                   className="contact-value"
                   onMouseEnter={() => onButtonHover(true, "Call Us")}
                   onMouseLeave={() => onButtonHover(false, "")}
                 >
-                  +1 (234) 567-890
+                  +88 01711 992 558
                 </a>
               </div>
 
               <div className="contact-item">
                 <span className="contact-label">Location</span>
-                <span className="contact-value">New York, NY</span>
+                <span className="contact-value">Dhaka, Manila</span>
               </div>
             </div>
 

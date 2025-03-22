@@ -134,7 +134,7 @@ ul {
 /* Home section logo positioning */
 .home-logo-top-left {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 40px;
   z-index: 10;
 }
